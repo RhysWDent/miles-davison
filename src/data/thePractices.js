@@ -1,4 +1,4 @@
-export default [
+export const thePractices = [
   {
     key: 0,
     name: "Bankruptcy, Insolvency And Restructuring",
@@ -188,6 +188,9 @@ export default [
     description: [
       "A small investment now will save your family a big headache in the future. \r",
       "Wills and estate planning is something no one likes to think about, but your will is one of the most important financial planning documents you will ever use. Rest assured, our team knows how to streamline issues so things are taken care of as efficiently as possible. \r",
+      "Managing the estate of a loved one will never be easy, but with support it doesn’t have to be bewildering.\r",
+      "The death of a family member is a difficult time, and administering an estate can be a taxing and complicated process, which can sometimes bring emotional conflict to the surface. Our experienced estate litigation lawyers can help steward you through this process, and resolve conflict when necessary, whether through litigation or other dispute resolution mechanisms.\r",
+      "Whether it’s a straightforward or contested estate matter we have lawyers who specialize in each. We are also well-versed in matters related to adult guardianship for adults who may lack the appropriate capacity to manage their own estates. Regardless of the transition your family finds themselves in, we have experienced lawyers who can help usher you into the next stage of family life.\r",
     ],
     subAreas: [
       "Will preparation\r",
@@ -201,9 +204,6 @@ export default [
       "Challenging wills\r",
       "Variation of trust applications\r",
       "Family maintenance and support claims\r",
-      "Managing the estate of a loved one will never be easy, but with support it doesn’t have to be bewildering.\r",
-      "The death of a family member is a difficult time, and administering an estate can be a taxing and complicated process, which can sometimes bring emotional conflict to the surface. Our experienced estate litigation lawyers can help steward you through this process, and resolve conflict when necessary, whether through litigation or other dispute resolution mechanisms.\r",
-      "Whether it’s a straightforward or contested estate matter we have lawyers who specialize in each. We are also well-versed in matters related to adult guardianship for adults who may lack the appropriate capacity to manage their own estates. Regardless of the transition your family finds themselves in, we have experienced lawyers who can help usher you into the next stage of family life.\r",
     ],
     team: [
       "ESTATE LITIGATION\r",
@@ -302,4 +302,4 @@ export default [
       "Associate\r",
     ],
   },
-];
+]

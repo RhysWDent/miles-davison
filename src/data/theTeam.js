@@ -1,4 +1,4 @@
-export default [
+export const theTeam = [
   {
     key: 0,
     nameURL: "PredragAnic",

@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import team from "../data/theTeam"
+import { theTeam, thePractices } from "../data"
 
 export default () => {
   const images = useStaticQuery(graphql`
@@ -16,12 +16,11 @@ export default () => {
       }
     }
   `)
-  console.log(images.allFile.edges)
   return (
     <div>
-      Miles Davison
+      Miles Davison TEAM
       <ul>
-        {team.map(member => (
+        {theTeam.map(member => (
           <li>
             <div>{member.name}</div>
             <div>{member.position}</div>
@@ -65,6 +64,31 @@ export default () => {
             </ul>
           </li>
         ))}
+      </ul>
+      PRACTICE AREAS
+      <ul>
+        {thePractices.map(practice => {
+          return (
+            <li>
+              <div>{practice.name}</div>
+              <ul>
+                {practice.description.map(desc => (
+                  <li>{desc}</li>
+                ))}
+              </ul>
+              <ul>
+                {practice.subAreas.map(sub => (
+                  <li>{sub}</li>
+                ))}
+              </ul>
+              <ul>
+                {practice.team.map(member => (
+                  <li>{member}</li>
+                ))}
+              </ul>
+            </li>
+          )
+        })}
       </ul>
     </div>
   )
